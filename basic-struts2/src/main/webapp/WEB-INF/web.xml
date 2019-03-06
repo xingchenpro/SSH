@@ -6,6 +6,7 @@
     <display-name>Archetype Created Web Application</display-name>
     <filter>
         <filter-name>struts2</filter-name>
+        <!--StrutsPrepareAndExecuteFilter是自2.1.3开始就替代了FilterDispatcher-->
         <filter-class>
             org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter
         </filter-class>
