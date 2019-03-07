@@ -4,8 +4,9 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
     <package name="default" extends="struts-default">
-        <action name="index">
-            <result>index.jsp</result>
+        <action name="index" class="com.hly.controller.IndexController">
+            <result name="success">admin.jsp</result>
+            <result name="error">error.jsp</result>
         </action>
     </package>
 </struts>
