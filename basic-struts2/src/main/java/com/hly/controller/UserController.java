@@ -7,7 +7,7 @@ package com.hly.controller;
  * @CSDN :blog.csdn.net/Sirius_hly
  * @date :2019/3/6
  */
-public class IndexController {
+public class UserController {
 
     private String username;
     private String password;

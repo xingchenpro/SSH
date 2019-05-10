@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSHLearning:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SSHLearning.war">
+      <element id="artifact" artifact-name="SSHLearning:war exploded" />
+    </root>
+  </artifact>
+</component>
