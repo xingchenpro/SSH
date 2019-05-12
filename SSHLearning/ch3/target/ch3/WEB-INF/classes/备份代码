@@ -1,0 +1,16 @@
+ /*else {
+             Pattern p = Pattern.compile("\\{6,20}");
+             Matcher m = p.matcher(getUsername().trim());
+             if(!m.matches()){
+                 this.addFieldError("usernameMsg","用户名由下划线,字母,数字构成,长度6-20");
+             }
+         }*/
+
+
+
+/*else{
+            int s = getPassword().trim().length();
+            if(s<6 || s>30){
+                this.addFieldError("passwordMsg","密码长度应在6-30之间");
+            }
+        }*/
