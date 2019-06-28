@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<!-- 在下面添加xml配置 -->
+	<bean id="person" class="com.javahly.entity.Person">
+		<property name="name" value="201611104033-黄良运"></property>
+	</bean>
+
+	<bean id="stoneAxe" class="com.javahly.entity.StoneAxe"></bean>
+	<bean id="steelAxe" class="com.javahly.entity.SteelAxe"></bean>
+
+	<bean id="chinese" class="com.javahly.entity.Chinese">
+		<property name="axe" ref="steelAxe"></property>
+	</bean>
+	<bean id="american" class="com.javahly.entity.American">
+		<property name="axe" ref="stoneAxe"></property>
+	</bean>
+
+	<bean id="france" class="com.javahly.entity.France">
+		<constructor-arg ref="steelAxe"></constructor-arg>
+		<constructor-arg ref="stoneAxe"></constructor-arg>
+		<constructor-arg value="Hly"></constructor-arg>
+
+	</bean>
+
+
+
+</beans>

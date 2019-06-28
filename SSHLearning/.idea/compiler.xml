@@ -11,6 +11,8 @@
         <module name="ch3" />
         <module name="ch4" />
         <module name="ch5" />
+        <module name="ch6" />
+        <module name="ch8" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,9 @@
       <module name="ch3" target="1.7" />
       <module name="ch4" target="1.7" />
       <module name="ch5" target="1.7" />
+      <module name="ch6" target="1.7" />
+      <module name="ch7" target="1.7" />
+      <module name="ch8" target="1.7" />
       <module name="SSHLearning" target="1.7" />
     </bytecodeTargetLevel>
   </component>

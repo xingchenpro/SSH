@@ -27,11 +27,9 @@ public class Users {
     public void setUname(String uname) {
         this.uname = uname;
     }
-
     public Set<Role> getUserroles() {
         return userroles;
     }
-
     public void setUserroles(Set<Role> userroles) {
         this.userroles = userroles;
     }

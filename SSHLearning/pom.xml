@@ -13,6 +13,10 @@
     <module>ch3</module>
     <module>ch4</module>
     <module>ch5</module>
+      <module>ch6</module>
+      <module>ch7</module>
+    <module>ch7</module>
+    <module>ch8</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -85,9 +89,21 @@
     </dependency>
 
     <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.8.13</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.hibernate.common</groupId>
       <artifactId>hibernate-commons-annotations</artifactId>
       <version>4.0.5.Final</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.0.0.RELEASE</version>
     </dependency>
 
 

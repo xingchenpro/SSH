@@ -8,10 +8,10 @@
         <id name="typeId">
             <generator class="native"/>
         </id>
-        <property name="typeName"></property>
+        <property name="typeName"/>
         <!--one-to-many-->
         <set name="userSet">
-            <key column="tid"></key>
+            <key column="tid"/>
             <one-to-many class="com.javahly.entity.Users"/>
         </set>
     </class>
